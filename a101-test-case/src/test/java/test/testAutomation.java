@@ -15,7 +15,7 @@ public class testAutomation {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Fatih\\Desktop\\chromedriver.exe");
         WebDriver webDriver = new ChromeDriver();
 
-        webDriver.get("https://www.a101.com.tr/giyim-aksesuar/dizalti-corap/");
+        webDriver.get("https://www.a101.com.tr/");
         webDriver.manage().window().maximize();
 
         WebElement cookie = webDriver.findElement(By.id("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"));
